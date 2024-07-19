@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #d09683;
+      padding: 0;
+    }
+    header {
+      background-color: #962e2a ;
+      color: beige;
+      text-align: center;
+      padding: 20px 0;
+    }
+    header h1 {
+      margin: 0;
+    }
+    #about {
+      display: flex;
+      align-items: left;
+      justify-content: left;
+      padding: 20px;
+      text-align: left;
+    }
+    #about img {
+      height: 200px;
+      width: 180px;
+      border-radius: 100%;
+      position: relative;
+      left: 80%;
+    }
+    #about1 {
+      padding: 1px 0;
+      text-align: left;
+    }
+    #skills {
+      text-align: left;
+      padding: 10px 0;
+    }
+    #skills ul {
+      list-style: none;
+    }
+    #projects {
+      text-align: center;
+      padding: 20px 0;
+    }
+    .project {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .project img {
+      max-width: 50%;
+      border-radius: 5px;
+      margin: 10px 0;
+    }
+    #resume, #contact {
+      text-align: center;
+      padding: 20px 0;
+    }
+    #resume a {
+      text-decoration: none;
+      color: #333;
+      border: 1px solid #333;
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Parvathaneni Harshitha</h1>
+    <p>Full Stack Web Designer</p>
+  </header>
+  <section id="about">
+    <img src="profile1.jpeg" alt="Parvathaneni Harshitha" />
+    <div>
+      <h2>About Me</h2>
+      <p>A committed beginner focused on meticulous design and enthusiastic development.</p>
+    </div>
+  </section>
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <div class="project-text">
+        <h3>Project 1</h3>
+        <p>Developed a JavaScript-based interactive portfolio to do sum of numbers up to n</p>
+      </div>
+      <img src="project1-1.png" alt="Project 1-1" />
+      <img src="project1-2.png" alt="Project 1-2" />
+    </div>
+    <div class="project">
+      <div class="project-text">
+        <h3>Project 2</h3>
+        <p>Developed a JavaScript-based interactive portfolio to show Fibonacci sequence</p>
+      </div>
+      <img src="project2-1.png" alt="Project 2-1" />
+      <img src="project2-2.png" alt="Project 2-2" />
+    </div>
+  </section>
+  <section id="resume">
+    <h2>Resume</h2>
+    <p><a href="Resume1.docx" download>Download Resume (PDF)</a></p>
+  </section>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: harshithaparvathaneni2005@gmail.com</p>
+    <p>Phone: 9110300354</p>
+  </section>
+  <footer>
+    <p>&copy; 2024 Parvathaneni Harshitha. All rights reserved.</p>
+  </footer>
+</body>
+</html>
